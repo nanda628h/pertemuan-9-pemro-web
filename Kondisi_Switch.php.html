@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kondisi SWITCH</title>
+</head>
+<body>
+    <h2>Contoh Kondisi SWITCH</h2>
+    <?php
+        $day = date("D");
+        switch ($day) {
+            case "Sun": echo "Minggu"; break;
+            case "Mon": echo "Senin"; break;
+            case "Tue": echo "Selasa"; break;
+            case "Wed": echo "Rabu"; break;
+            case "Thu": echo "Kamis"; break;
+            case "Fri": echo "Jumat"; break;
+            case "Sat": echo "Sabtu"; break;
+            default: echo "Tidak diketahui";
+        }
+    ?>
+</body>
+</html>
